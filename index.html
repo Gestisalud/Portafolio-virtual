@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gestisalud Consultores</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">GESTISALUD <span>CONSULTORES</span></div>
+    <ul class="nav-links">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <section id="inicio" class="section">
+    <div class="content">
+      <h1>Gestión estratégica en salud para IPS</h1>
+      <p>Calidad, optimización y resultados financieros.</p>
+    </div>
+  </section>
+
+  <section id="servicios" class="section">
+    <div class="content">
+      <h2>Servicios</h2>
+      <ul>
+        <li>Facturación de servicios de salud</li>
+        <li>Auditoría médica y administrativa</li>
+        <li>Radicación de cuentas</li>
+        <li>Gestión de cartera</li>
+        <li>Informes estratégicos para toma de decisiones</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="nosotros" class="section">
+    <div class="content">
+      <h2>¿Quiénes Somos?</h2>
+      <p>Somos una empresa enfocada en apoyar a las IPS en la gestión eficiente de sus procesos de salud. Nuestro trabajo está centrado en mejorar el desempeño financiero y operativo de nuestros clientes, brindando soluciones personalizadas, prácticas y de alto impacto.</p>
+    </div>
+  </section>
+
+  <section id="contacto" class="section">
+    <div class="content">
+      <h2>Contáctanos</h2>
+      <form action="https://formspree.io/f/xpwlpeqd" method="POST" id="contact-form">
+        <input type="text" name="nombre" placeholder="Nombre completo" required />
+        <input type="text" name="institucion" placeholder="Institución" required />
+        <input type="text" name="nit" placeholder="NIT" required />
+        <input type="text" name="ciudad" placeholder="Ciudad" required />
+        <input type="email" name="email" placeholder="Correo electrónico" required />
+        <input type="tel" name="celular" placeholder="Celular" required />
+        <textarea name="mensaje" placeholder="Mensaje" rows="4"></textarea>
+        <label class="checkbox">
+          <input type="checkbox" required /> Acepto la política de tratamiento de datos
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="success-message" class="hidden">Tu mensaje ha sido enviado con éxito.</div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Gestisalud Consultores. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
